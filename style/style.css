@@ -235,7 +235,7 @@
 
 footer {
     background-color: rgb(38, 0, 81);
-    padding: 20px 0px;
+    padding-top: 30px;
 }
 
 .one {
@@ -253,4 +253,8 @@ footer {
 .manubar li {
     list-style: none;
     text-align: left;
+}
+
+.footer-con {
+    border-bottom: 2px solid white;
 }
