@@ -42,27 +42,27 @@
                             <a class="nav-link text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About Us </a>
+                            <a class="nav-link text-light" href="#aboutUs">About Us </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Service</a>
+                            <a class="nav-link text-light" href="#service">Service</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#">Contacts Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Sign Up</a>
+                            <a class="nav-link text-light" href="#signUp">Sign Up</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- NAVBAR SECTION CLOSE -->
+
     <!-- DISPLAY SECTION HERE  -->
     <section>
-        <!-- Carousel -->
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
-            <!-- The slideshow/carousel -->
             <div class="carousel-inner">
                 <div class="carousel-item active displayOne">
                     <div class="d-md-flex justify-content-between align-items-center container">
@@ -76,7 +76,6 @@
                             <i class=" icon fa-brands fa-whatsapp"></i>
                             <i class=" icon fa-brands fa-instagram"></i>
                             <i class=" icon fa-brands fa-linkedin"></i>
-
                         </div>
                         <div class="dis-image">
                             <img class="display-img d-md-block d-none" src="./image/display (1).png" alt="">
@@ -92,7 +91,7 @@
                                 Veritatis,
                                 quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis,
                                 quos!</p>
-                            <button type=" button" class="btn">Hire Me</button>
+                            <button class="btn">Hire Me</button>
                         </div>
                         <div class="dis-image">
                             <img class="display-img d-md-block d-none" src="./image/display (3).png" alt="">
@@ -115,8 +114,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Left and right controls/icons -->
             <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
@@ -125,8 +122,9 @@
 
     </section>
     <!-- DISPLAY SECTION CLOSE  -->
+
     <!-- SKILL SECTION HERE -->
-    <section class="skill">
+    <section class="skill" id="aboutUs">
         <div class="text-center contant container">
             <h1>
                 My Skill List Here
@@ -174,7 +172,123 @@
     </section>
     <!-- SKILL SECTION CLOSE -->
 
+    <!-- SERVICE SECTION HERE -->
+    <section class="service" id="service">
+        <div class="text-center text-light service-head container">
+            <h1>
+                My Service Here
+            </h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure architecto beatae tempora <br> culpa
+                doloribus
+                debitis consectetur voluptate rem atque laudantium.</p>
+        </div>
+        <div class="d-md-flex justify-content-center gap-4 pt-5">
+            <div class="card-service">
+                <i class="fa-solid fa-earth-americas icon-service"></i>
+                <h4 class="py-2">Web Delopment</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint ex sit culpa deleniti molestias
+                    voluptates voluptatem dignissimos eos consequuntur.</p>
+                <p class="pb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint ex sit culpa
+                    deleniti molestias
+                </p>
+            </div>
+            <div class="card-service">
+                <i class="fa-brands fa-app-store-ios icon-service"></i>
+                <h4 class="py-2">App Delopment</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint ex sit culpa deleniti molestias
+                    voluptates voluptatem dignissimos eos consequuntur.</p>
+                <p class="pb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint ex sit culpa
+                    deleniti molestias
+                </p>
+            </div>
+            <div class="card-service">
+                <i class="fa-solid fa-rocket icon-service"></i>
+                <h4 class="py-2">Content Designer</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint ex sit culpa deleniti molestias
+                    voluptates voluptatem dignissimos eos consequuntur.</p>
+                <p class="pb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint ex sit culpa
+                    deleniti molestias
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICE SECTION CLOSE -->
 
+    <!-- SIGN UP SECTION CLOSE -->
+    <section class="from-section container" id="signUp">
+        <div class="from">
+            <div class="text-center">
+                <h1 class="py-3 from-text">Sign Up</h1>
+            </div>
+            <form action="#" class="text-center">
+                <div class="d-md-flex gap-3 justify-content-center pt-4">
+                    <div>
+                        <div class="input-box">
+                            <span class="details">Full Name :</span>
+                            <br>
+                            <input class="text-box" type=" text" placeholder="Full Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Phone :</span>
+                            <br>
+                            <input class="text-box" type=" number" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="input-box">
+                            <span class="details">User Name :</span>
+                            <br>
+                            <input class="text-box" type="text" placeholder="User Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email :</span>
+                            <br>
+                            <input class="text-box" type=" email" placeholder="Inter your email" required>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-reg mt-4">Register Now</button>
+            </form>
+        </div>
+    </section>
+    <!-- SIGN UP SECTION CLOSE -->
+    <!-- FOOTER SECTION HERE -->
+    <footer>
+        <div class="d-md-flex justify-content-center container text-light gap-5">
+            <div class="one">
+                <h3>About me</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita error illum harum enim suscipit
+                    dolor quos rerum est, provident numquam.
+                </p>
+            </div>
+            <div class="two">
+                <h3>Manu Bar</h3>
+                <ul class="manubar">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Service</li>
+                    <li>Sign Up</li>
+                </ul>
+            </div>
+            <div class="three">
+                <h3>Contacts Us</h3>
+                <i class="fa-solid fa-phone"></i>
+                <lable>01315390470</lable>
+                <br>
+                <i class="fa-regular fa-envelope"></i>
+                <label>mdshohaghossen29@gmail.com</label>
+                <br>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- FOOTER SECTION CLOSE -->
 
 
 
